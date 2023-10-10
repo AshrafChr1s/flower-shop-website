@@ -1,0 +1,282 @@
+.unlockBannerHead-new {
+    position: absolute;
+    top: 170px !important;
+    background: #fff;
+    outline: none;
+    margin: 0 auto;
+    border-radius: 24px;
+    min-height: 275px;
+    max-height: 561px;
+    overflow: hidden
+}
+
+.city_pincode_headerBox {
+    display: flex;
+    background-color: rgba(179, 203, 211, .16);
+    padding: 24px;
+    justify-content: space-between;
+    position: relative
+}
+
+.city-pincode-location-img {
+    height: 63px;
+    width: 50px
+}
+
+.city-pincode-highlight-span {
+    color: #1c2120;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.new_cross_icon {
+    background: url(https://imgcdn.floweraura.com/ssr-build/static/media/city-pincode-cross.b201bb1e.png) no-repeat;
+    position: absolute;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    top: 14px;
+    right: 14px
+}
+
+.city_pincode_inputBox {
+    padding: 32px 24px 0;
+    margin-bottom: 32px;
+    position: relative
+}
+
+.city_pincode_errorHeading {
+    padding-top: 12px;
+    margin-bottom: -2px
+}
+
+.city_pincode_errorHeading>p {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ff6c3e
+}
+
+.city_pincode_lastHeading {
+    padding: 0 24px 32px;
+    text-align: center
+}
+
+.city_pincode_lastHeading>p {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgba(28, 33, 32, .5)
+}
+
+.city_pincode_input_green {
+    position: absolute;
+    width: 64px;
+    height: 46px;
+    background: #199100;
+    border-radius: 4px
+}
+
+#select-your-city-pincode-input {
+    background: url(https://imgcdn.floweraura.com/ssr-build/static/media/location-icon.f4cfe673.gif) no-repeat 100%;
+    background-color: #fff;
+    background-position: 10px 3px;
+    height: 60px;
+    border: 1px solid #199100;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px 10px 57px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c2120;
+    text-transform: capitalize;
+    letter-spacing: .32px
+}
+
+#select-your-city-pincode-input::-webkit-input-placeholder {
+    color: rgba(28, 33, 32, .45);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .32px
+}
+
+#select-your-city-pincode-input:-ms-input-placeholder {
+    color: rgba(28, 33, 32, .45);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .32px
+}
+
+#select-your-city-pincode-input::placeholder {
+    color: rgba(28, 33, 32, .45);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .32px
+}
+
+#select-your-city-pincode-input:focus::-webkit-input-placeholder {
+    color: rgba(28, 33, 32, .2)
+}
+
+#select-your-city-pincode-input:focus:-ms-input-placeholder {
+    color: rgba(28, 33, 32, .2)
+}
+
+#select-your-city-pincode-input:focus::placeholder {
+    color: rgba(28, 33, 32, .2)
+}
+
+#select-your-city-pincode-input:focus {
+    outline: none
+}
+
+.city_pincode_cancelText {
+    position: absolute;
+    z-index: 999999;
+    top: 48px;
+    right: 40px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: url(https://imgcdn.floweraura.com/ssr-build/static/media/city-pincode-x-circle.4edbe3cd.png) no-repeat 50%
+}
+
+.filter_city_pincode_results {
+    margin-top: 0;
+    background: #fff;
+    border: 1px solid rgba(28, 33, 32, .07);
+    max-height: 250px;
+    overflow: auto;
+    margin-bottom: 0;
+    border-radius: 0 0 20px 20px
+}
+
+.filter_city_pincode_results li {
+    height: auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid rgba(28, 33, 32, .07);
+    cursor: pointer;
+    color: rgba(28, 33, 32, .5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.filter_city_pincode_results li:last-child {
+    border-bottom: none
+}
+
+.filter_city_pincode_results li:hover {
+    background: #f4f4f4
+}
+
+.main-heading {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #1c2120
+}
+
+@media only screen and (max-width:767px) {
+    .unlockBannerHead-new .slide-pane__content {
+        overflow: hidden
+    }
+    .unlockBannerHead-new {
+        max-height: 544px;
+        height: unset !important;
+        min-height: 289px !important;
+        position: fixed;
+        top: unset !important;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
+    }
+    .city_pincode_headerBox {
+        padding: 30px 24px 24px;
+        height: auto
+    }
+    .main-heading {
+        font-size: 14px;
+        line-height: 24px
+    }
+    .city-pincode-location-img {
+        height: 50px;
+        width: 40px;
+        margin-top: 0
+    }
+    .city_pincode_inputBox {
+        margin-bottom: 32px;
+        padding: 32px 24px 0
+    }
+    #select-your-city-pincode-input {
+        height: 60px
+    }
+    .city_pincode_cancelText {
+        width: 56px;
+        height: 38px;
+        top: 43px;
+        right: 24px
+    }
+    .city_pincode_lastHeading {
+        padding: 0 24px 42px
+    }
+    .city_pincode_lastHeading>p {
+        font-size: 12px;
+        line-height: 18px
+    }
+    .filter_city_pincode_results {
+        max-height: 160px
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .unlockBannerHead-new {
+        width: 535px
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:760px) {
+    .main-heading {
+        font-size: 19px
+    }
+}
+
+@supports (-webkit-touch-callout:none) {
+    #select-your-city-pincode-input:disabled {
+        opacity: 1;
+        color: #1c2120
+    }
+}
+
+.slide-pane__header {
+    display: none !important
+}
+
+@media only screen and (max-width:320px) {
+    .main-heading {
+        font-size: 12px;
+        line-height: 24px
+    }
+}

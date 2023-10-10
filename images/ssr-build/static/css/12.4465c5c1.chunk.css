@@ -1,0 +1,1458 @@
+.contact-popup-page {
+    padding: 1px 0;
+    background: #fff
+}
+
+.contact-us-page {
+    margin-top: 60px;
+    margin-bottom: 30px
+}
+
+.contact-breadcrum {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    width: 88%;
+    max-width: 1440px;
+    margin: 25px auto 0
+}
+
+.contact-breadcrum a {
+    color: #888
+}
+
+.contact-breadcrum span {
+    color: #000
+}
+
+.contact-us-content {
+    padding: 37px 68px 41px;
+    background-color: #f8f8f8;
+    max-width: 700px;
+    width: 60%;
+    margin: auto
+}
+
+.contact-us-content h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin: 0
+}
+
+p.required-error {
+    font-size: 12px;
+    line-height: 1.71;
+    color: red;
+    padding: 0;
+    margin-top: -8px;
+    margin-bottom: 5px;
+    margin-left: 5px
+}
+
+.contact-us-content .mobile-number,
+p.required-error {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left
+}
+
+.contact-us-content .mobile-number {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000;
+    margin: 30px 0 6px
+}
+
+.contact-us-content .email {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000
+}
+
+.contact-us-content .email,
+.contact-us-content .subject {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left
+}
+
+.contact-us-content .subject {
+    font-size: 12px;
+    line-height: 2;
+    color: #888;
+    width: 470px;
+    margin: 5px 0 0
+}
+
+.hello-tap .hello-tap-title {
+    width: 267px;
+    padding: 24px 40px 24px 17px;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000
+}
+
+.hello-tap {
+    display: flex;
+    width: 367px;
+    height: 93px;
+    margin: 30px 0 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .16);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px
+}
+
+.hello-tap-title span {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/smile.0a7ee67a.svg);
+    padding: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px
+}
+
+.hello-tap .contactus-close {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/cross.e1eb5721.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    top: -10px;
+    background-size: 25px;
+    right: 0;
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .16)
+}
+
+.hello-tap .contactus-logo {
+    padding: 38px 15px 38px 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    height: 93px
+}
+
+.hello-tap .contactus-logo span {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/logo.675ac357.svg);
+    background-repeat: no-repeat;
+    padding: 30px 35px 25px;
+    cursor: pointer;
+    background-size: 100% 100%;
+    border-radius: 35px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .16);
+    display: inline;
+    display: initial
+}
+
+.needHelpPage .need-header-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-backdrop-filter: blur(5.1px);
+    backdrop-filter: blur(5.1px);
+    background-color: hsla(0, 0%, 100%, .75);
+    z-index: 999;
+    overflow: auto
+}
+
+.needHelpPage .need-show {
+    width: 360px;
+    height: 453px;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #f5fbfc
+}
+
+.needHelpPage .header-inner,
+.needHelpPage .need-show {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .16)
+}
+
+.needHelpPage .header-inner {
+    margin: 0 0 5px;
+    padding: 13px 14px 13.8px 17px;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center
+}
+
+.needHelpPage .all_data_show {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 83%
+}
+
+.header-inner .reload-close {
+    display: flex
+}
+
+.header-inner .reload-close .reload-image img {
+    margin-right: 20px
+}
+
+.header-inner .reload-close .close-image img,
+.header-inner .reload-close .reload-image img {
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .16);
+    cursor: pointer
+}
+
+.logo-hello {
+    display: flex;
+    align-items: baseline
+}
+
+.logo-hello span.contact-logo {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/logo.675ac357.svg)
+}
+
+.logo-hello span.contact-logo,
+.logo-hello span.profile-logo {
+    padding: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 15px;
+    position: relative;
+    top: 12px
+}
+
+.logo-hello span.profile-logo {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/profile.63cfe492.svg)
+}
+
+.logo-hello span.emoji {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/smile.0a7ee67a.svg);
+    padding: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px
+}
+
+.hello-message {
+    padding: 12px 18px 13px 16px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin: 29px 30px 0 0
+}
+
+.logo-hello .helpMsgCloseWindow {
+    width: 100%
+}
+
+.logo-hello .helpMsgCloseWindow .helpYou-message {
+    border-radius: 6px 6px 0 0
+}
+
+.logo-hello .helpMsgCloseWindow .close-window-last {
+    margin: -1px 16px 0 0;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 12px 1.5px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    text-align: center;
+    outline: none;
+    color: #3383f7;
+    cursor: pointer;
+    width: -webkit-fill-available
+}
+
+.hello-title,
+.logo-hello .helpMsgCloseWindow .close-window-last {
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal
+}
+
+.hello-title {
+    text-align: left;
+    color: #000
+}
+
+.helpYou-message {
+    border-radius: 10px;
+    margin: 22px 30px 0 0;
+    padding: 16px 17px 17px 9px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff
+}
+
+.helpYou-message .need-order {
+    width: 151px;
+    height: 36px;
+    margin: 20px 68px 12px 0;
+    padding: 10px 11px 9px 7px
+}
+
+.helpYou-message .already-order,
+.helpYou-message .need-order {
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .09);
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    cursor: pointer
+}
+
+.helpYou-message .already-order {
+    width: auto;
+    margin: 12px 0 0;
+    padding: 10px 13px 9px 7px;
+    text-transform: capitalize
+}
+
+.logo-hello .help-you {
+    margin: 17px 66px 15px 10px;
+    padding: 12px 24px 11px 16px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff
+}
+
+.people-logo {
+    justify-content: flex-end;
+    margin-left: 10px
+}
+
+.logo-hello .need-place {
+    padding: 11px 14px 12px;
+    background-color: #efefef
+}
+
+.logo-hello .need-place,
+.related-category {
+    border-radius: 6px;
+    border: 1px solid #dcdcdc
+}
+
+.related-category {
+    margin: 29px 30px 0 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    background-color: #f8f8f8
+}
+
+.ss_Form2,
+.ticketIdGenerate_Form1 {
+    width: 100%
+}
+
+.helpYou-message h2 {
+    margin: 0 0 15px 4px;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #000
+}
+
+.all_data_show p.formError,
+.helpYou-message h2 {
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left
+}
+
+.all_data_show p.formError {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    line-height: 1.71;
+    color: red;
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 5px
+}
+
+.helpYou-message select {
+    cursor: pointer;
+    background: #fff url(https://imgcdn.floweraura.com/ssr-build/static/media/arrow-down.35fb201e.35fb201e.svg) no-repeat scroll 95% 45%/12px auto
+}
+
+.helpYou-message.related-category {
+    width: 100%
+}
+
+.genie-preScale .ticketIdGenerate_comment input {
+    margin: 0 !important
+}
+
+.bestSeller_inner {
+    width: 100%;
+    margin: 29px 30px 0 0
+}
+
+.bestSeller_inner h2 {
+    padding: 16px 17px 25px 9px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    border: 1px solid #dcdcdc;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    border-radius: 6px;
+    color: #000;
+    margin-bottom: 10px
+}
+
+.bestSeller_inner .seller-item .seller-slider {
+    background: #fff;
+    padding: 5px
+}
+
+.bestSeller_inner .seller-item .seller-slider .productslider-item a {
+    display: block;
+    border-radius: 4px;
+    border: .5px solid rgba(28, 33, 32, .2);
+    background-color: #fff;
+    padding: 4px 4px 14px
+}
+
+.bestSeller_inner .seller-item .seller-slider .productslider-item {
+    width: 47%;
+    position: relative;
+    display: inline-block;
+    float: none;
+    padding: 0;
+    background: #fff;
+    transition-duration: .3s;
+    text-align: left;
+    margin: 0 6% 5px 0;
+    vertical-align: top
+}
+
+.bestSeller_inner .seller-item .seller-slider .productslider-item:last-child {
+    margin: 0 0 5px
+}
+
+.genie_all-Gifts {
+    display: block;
+    border-radius: 5px;
+    padding: 12px 1.5px;
+    background-color: #199100;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    cursor: pointer;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16)
+}
+
+.bestSeller_inner .seller-item .seller-slider .productslider-item a .prod_name {
+    width: 100%;
+    margin: 0 0 6px;
+    opacity: .8;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c2120;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.bestSeller_inner .seller-item .seller-slider .productslider-item a .prod_price {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c2120
+}
+
+.productslider-item .earliest-delivery {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    padding: 5px 0;
+    color: #666;
+    font-size: 11px;
+    font-weight: 400
+}
+
+.productslider-item .earliest-delivery .earliest-delivery-value {
+    color: #347b4c;
+    font-weight: 400
+}
+
+.helpYou-message input,
+.helpYou-message select {
+    width: 100%;
+    border: 1px solid #fff;
+    font-size: 16px;
+    outline: none;
+    margin: 0 4px 12px;
+    padding: 8px 4px 12px 14px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000
+}
+
+.helpYou-message ::-webkit-input-placeholder {
+    text-transform: capitalize
+}
+
+.helpYou-message :-moz-placeholder,
+.helpYou-message ::-moz-placeholder {
+    text-transform: capitalize
+}
+
+.helpYou-message :-ms-input-placeholder {
+    text-transform: capitalize
+}
+
+.helpYou-message input.contact-number {
+    border: 1px solid #dcdcdc
+}
+
+.already-order.cursor-default {
+    cursor: default
+}
+
+.helpYou-message .for_address {
+    resize: none;
+    width: 100%;
+    margin: 0 4px 12px;
+    padding: 8px 4px 10px 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    outline: none
+}
+
+.ticketMessage {
+    margin: 0 5px
+}
+
+.ticketMessage p {
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #49a066
+}
+
+.details-category {
+    margin: 29px 30px 0 0;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    border: 1px solid #dcdcdc;
+    background-color: #f8f8f8
+}
+
+.details-confirm .ticketIdGenerate_order {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.details-confirm .ticketIdGenerate_order input {
+    border: 1px solid grey
+}
+
+.details-confirm .confirm,
+.details-confirm input.confirm {
+    margin: -1px 30px 20px 0;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 12px 1.5px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    outline: none;
+    color: #3383f7;
+    cursor: pointer;
+    width: -webkit-fill-available;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16)
+}
+
+.last-details {
+    margin-left: 16px
+}
+
+.related-last-category h2 {
+    text-align: center
+}
+
+.related-last-category {
+    margin: 29px 16px 0 0;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    border: 1px solid #dcdcdc;
+    background-color: #f8f8f8
+}
+
+.related-last-category .last-close-message span.contact-logo {
+    background: none;
+    margin: 0 10px 0 0
+}
+
+.type_input_box {
+    position: relative
+}
+
+.type_input_box .type_input {
+    width: 90%;
+    margin: 20px 16px 0;
+    padding: 14px 50px 14px 14px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    background-color: #fff;
+    display: block;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #dcdcdc;
+    outline: 0
+}
+
+.type_input_box span {
+    position: absolute;
+    display: inline-block;
+    height: 32px;
+    background-color: #739518;
+    width: 32px;
+    border-radius: 16px;
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/send.6f7a76bf.svg);
+    background-repeat: no-repeat;
+    right: 30px;
+    top: 6px;
+    background-size: 52%;
+    background-position: 50%
+}
+
+.file-upload {
+    padding: 16px 17px 17px 9px;
+    position: relative
+}
+
+.file-upload h2 {
+    margin: 0 0 15px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000
+}
+
+.img-field {
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    background-color: #fff;
+    width: 137px;
+    margin: 18px 80px 5px
+}
+
+.img-field label {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/file.4537294e.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0;
+    margin-left: 10px
+}
+
+.img-field .image-file {
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    width: 135px
+}
+
+.image-show {
+    display: flex;
+    margin: 29px auto 0;
+    padding: 11px 75px 13px 9px;
+    border: 1px solid #dcdcdc;
+    background-color: #efefef;
+    border-radius: 6px;
+    width: 219px
+}
+
+.image-show span img {
+    width: 74px;
+    height: 74px;
+    object-fit: contain
+}
+
+.image-show span.name-show {
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-left: 10px
+}
+
+.needHelpPopup-show {
+    overflow: hidden
+}
+
+.message-data img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+.message-data span.mesg {
+    word-break: break-all;
+    display: block
+}
+
+.helpYou-message input[type=file] {
+    background-image: url(https://imgcdn.floweraura.com/ssr-build/static/media/file.4537294e.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding: 8px 4px 8px 25px
+}
+
+.related-last-category .whatsappIconDiv {
+    display: flex;
+    align-items: center
+}
+
+.details-confirm .LoginToContinue {
+    padding: 11px 14px 12px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background-color: #618d3d;
+    color: #fff;
+    cursor: pointer;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.ticketIdGenerate_comment span {
+    font-weight: 600
+}
+
+.details-confirm .ticketIdGenerate_comment input {
+    margin: 20px 0 5px
+}
+
+.not_found-ticket {
+    background-color: #fff !important;
+    color: #ed232a;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.hello-message .error_message {
+    color: #ed232a
+}
+
+.ticketIdGenerate_order .orderId_content_show {
+    margin-bottom: 20px
+}
+
+.account_message-update {
+    background: #618d3d;
+    margin-bottom: 20px
+}
+
+.needHelp_hideButton {
+    display: none
+}
+
+.account_message-update p {
+    color: #fff
+}
+
+.calenderGenieShow .ticketIdGenerate_comment {
+    position: relative
+}
+
+.calenderGenieShow em {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: no-repeat url(https://imgcdn.floweraura.com/ssr-build/static/media/calenderLight.dfa84d5d.svg);
+    position: absolute;
+    right: 20px;
+    top: 48px
+}
+
+.calenderGenieShow .react-calendar {
+    position: absolute;
+    top: 85px;
+    right: -15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    max-width: none;
+    width: auto;
+    z-index: 9
+}
+
+.react-calendar__tile:enabled:focus,
+.react-calendar__tile:enabled:hover {
+    background: #199100 !important;
+    border-radius: 25px;
+    color: #fff
+}
+
+.calenderGenieShow input {
+    cursor: pointer
+}
+
+.react-calendar__navigation {
+    align-items: center
+}
+
+.calenderGenieShow .react-calendar__navigation button.react-calendar__navigation__next2-button,
+.calenderGenieShow .react-calendar__navigation button.react-calendar__navigation__prev2-button {
+    display: none
+}
+
+.react-calendar__navigation button.react-calendar__navigation__prev-button {
+    order: 2;
+    height: 24px;
+    width: 24px;
+    min-width: 24px;
+    border-radius: 50%;
+    background: #f0f0f0 no-repeat url(https://imgcdn.floweraura.com/ssr-build/static/media/arrow_left.cd4f5fd0.svg);
+    background-position: 50%;
+    font-size: 0;
+    margin-right: 9px
+}
+
+.react-calendar__navigation button.react-calendar__navigation__next-button {
+    order: 4;
+    height: 24px;
+    width: 24px;
+    min-width: 24px;
+    border-radius: 50%;
+    background: #f0f0f0 no-repeat url(https://imgcdn.floweraura.com/ssr-build/static/media/arrow_right.c20f5c7d.svg);
+    background-position: 50%;
+    font-size: 0;
+    margin-left: 9px
+}
+
+.react-calendar__navigation button.react-calendar__navigation__label {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600
+}
+
+.react-calendar__navigation button.react-calendar__navigation__label,
+.react-calendar button {
+    font-family: Poppins, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c2120
+}
+
+.react-calendar button {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center
+}
+
+.react-calendar__tile:disabled {
+    color: #dcdce0;
+    background: none
+}
+
+.react-calendar button.react-calendar__tile--active {
+    background-color: #199100;
+    color: #fff
+}
+
+.react-calendar__month-view__weekdays {
+    margin: 0 0 10px
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center
+}
+
+.react-calendar__month-view__weekdays__weekday abbr[title] {
+    text-decoration: none
+}
+
+.calenderGenieShow .react-calendar .react-calendar__tile--active,
+.calenderGenieShow .react-calendar .react-calendar button:enabled:hover {
+    border-radius: 25px
+}
+
+.contact-us-details {
+    max-width: 700px;
+    width: 60%;
+    margin: auto
+}
+
+.contact-us-details .callUs {
+    background: transparent url(https://imgcdn.floweraura.com/ssr-build/static/media/contact.3330c226.svg) 4% 50% no-repeat;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 2px 6px hsla(0, 0%, 46.3%, .1607843137254902);
+    border-radius: 4px;
+    opacity: 1;
+    padding: 10px 0 10px 50px;
+    margin-top: 15px
+}
+
+.contact-us-details .callUs label {
+    font-weight: 400
+}
+
+.contact-us-details .callUs label,
+.contact-us-details .callUs span {
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #000
+}
+
+.contact-us-details .callUs span {
+    font-weight: 600
+}
+
+.contact-us-details .email {
+    background: transparent url(https://imgcdn.floweraura.com/ssr-build/static/media/email.76de2e16.svg) 4% 50% no-repeat;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 2px 6px hsla(0, 0%, 46.3%, .1607843137254902);
+    border-radius: 4px;
+    opacity: 1;
+    padding: 10px 0 10px 50px;
+    margin-top: 15px
+}
+
+.contact-us-details .email label {
+    font-weight: 400
+}
+
+.contact-us-details .email label,
+.contact-us-details .email span {
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #000
+}
+
+.contact-us-details .email span {
+    font-weight: 600
+}
+
+.contact-us-details .call-support {
+    display: flex
+}
+
+.contact-us-details .call-support .call-email-support {
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 2px 6px hsla(0, 0%, 46.3%, .1607843137254902);
+    border-radius: 4px;
+    opacity: 1;
+    padding: 10px 0;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 10px;
+    width: 48.5%
+}
+
+.contact-us-details .call-support .call-email-support label {
+    display: block;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #000
+}
+
+.contact-us-details .call-support .call-email-support span {
+    display: block;
+    letter-spacing: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif
+}
+
+.contact-us-details .whatsapp-support {
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 2px 6px hsla(0, 0%, 46.3%, .1607843137254902);
+    border-radius: 4px;
+    opacity: 1;
+    padding: 10px 0;
+    margin-top: 15px;
+    text-align: center;
+    width: 48.5%;
+    margin-left: 10px
+}
+
+.contact-us-details .whatsapp-support label {
+    display: block;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #000
+}
+
+.contact-us-details .whatsapp-support span {
+    display: block;
+    letter-spacing: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif
+}
+
+@media only screen and (max-width:1024px) {
+    .contact-us-content {
+        width: auto
+    }
+    .logo-hello .helpYou-message {
+        width: -webkit-fill-available
+    }
+    .contact-us-details {
+        width: auto
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact-breadcrum {
+        margin-top: 70px
+    }
+    .needHelpPage .need-show {
+        width: 60%
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .contact-us-page {
+        margin-top: 0
+    }
+    .contact-us-content {
+        background-color: #fff;
+        width: 88%;
+        padding: 0
+    }
+    .contact-breadcrum {
+        display: none
+    }
+    .contact-us-content h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    .contact-us-content .subject {
+        width: auto
+    }
+    .hello-tap {
+        width: auto;
+        max-width: 360px
+    }
+    .hello-tap .hello-tap-title {
+        width: 230px;
+        padding-right: 0
+    }
+    .hello-tap .contactus-logo {
+        padding: 38px 10px
+    }
+    .needHelpPage .need-show {
+        height: 100%;
+        top: 0
+    }
+    .needHelpPage .header-inner,
+    .needHelpPage .need-show {
+        width: 100%;
+        border-radius: 0
+    }
+    .needHelpPage .all_data_show {
+        height: 90%;
+        padding-bottom: 25px
+    }
+    .logo-hello .helpMsgCloseWindow .helpYou-message,
+    .logo-hello .ss_Form1 .helpYou-message,
+    .logo-hello .ss_Form2 .helpYou-message {
+        width: auto
+    }
+    .calenderGenieShow .react-calendar {
+        right: -6px
+    }
+    .contact-us-details {
+        width: 88%
+    }
+    .contact-us-details .callUs {
+        padding: 10px 0 10px 35px
+    }
+    .contact-us-details .callUs label,
+    .contact-us-details .callUs span {
+        font-size: 16px
+    }
+    .contact-us-details .email {
+        padding: 10px 0 10px 35px
+    }
+    .contact-us-details .email label,
+    .contact-us-details .email span {
+        font-size: 16px
+    }
+    .contact-us-details .call-support .call-email-support {
+        margin-right: 5px;
+        width: 49%
+    }
+    .contact-us-details .whatsapp-support {
+        margin-left: 5px;
+        width: 49%
+    }
+    .contact-us-details .call-support .call-email-support label {
+        font-size: 12px
+    }
+    .contact-us-details .call-support .call-email-support span {
+        font-size: 14px
+    }
+    .contact-us-details .whatsapp-support label {
+        font-size: 12px
+    }
+    .contact-us-details .whatsapp-support span {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .productslider-item .earliest-delivery {
+        font-size: 9px
+    }
+}
+
+.lastspecificData ul li {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1c2120
+}
+
+.lastspecificData textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    height: 70px
+}
+
+.content_delete-data .ui-checkbox-on,
+.input_box-show {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #1c2120;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.content_delete-data .ui-checkbox-on {
+    padding-left: 30px
+}
+
+.input_box-show input,
+.ui-checkbox-on input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.lastspecificData ul li label {
+    margin: 0
+}
+
+.radio_checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    border: 1px solid #1c2120;
+    border-radius: 50%
+}
+
+.input_box-show input:checked~.radio_checkmark,
+.ui-checkbox-on input:checked~.checkmark {
+    background-color: #fff
+}
+
+.checkmark:after,
+.radio_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.input_box-show input:checked~.radio_checkmark:after,
+.ui-checkbox-on input:checked~.checkmark:after {
+    display: block
+}
+
+.input_box-show .radio_checkmark:after {
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #618d3d;
+    border: 1px solid #1c2120
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none
+}
+
+.error_message-account {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left
+}
+
+.choose-product-title {
+    color: #000;
+    padding-bottom: 15px
+}
+
+.product-slection-message {
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin: 0 30px 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    line-height: 1.5
+}
+
+.product-list-area {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .16);
+    border: 1px solid #dcdcdc;
+    background-color: #f8f8f8;
+    margin: 15px 30px 0 0;
+    padding: 15px;
+    justify-content: space-around
+}
+
+.product-name {
+    width: auto;
+    background: #fff;
+    margin-top: -4px;
+    font-size: 12px;
+    padding: 6px
+}
+
+.checkbox-placement {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px
+}
+
+.checkbox-design {
+    width: 20px;
+    height: 20px;
+    background-color: #efefef;
+    border: 1px solid #000;
+    margin-bottom: 10px
+}
+
+.icon-background {
+    background-color: #618d3c
+}
+
+.checkboxUI {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #888
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.checkmark {
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 25px;
+    width: 25px;
+    background-color: #fff
+}
+
+.container:hover input~.checkmark {
+    background-color: #ccc
+}
+
+.container input:checked~.checkmark {
+    background-color: #618d3c
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.container input:checked~.checkmark:after {
+    display: block
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
